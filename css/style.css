@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #18181a;
+}
+.container{
+    background-color: #242527;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    color: #5959f8;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Rampart One', cursive;
+}
+
+.txt_description{
+    font-size: 25px;
+    margin-bottom:20px;
+}
+a{
+    text-decoration:none;
+    color: rgb(43, 92, 226);
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+.btn_voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #5959f8;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+}
+.btn_voltar_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #f03060;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
